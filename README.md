@@ -23,7 +23,11 @@ NCCL2.x；MPI；TCP/IP；Gloo；
 ### 3.框架层次
 * [模型并行和数据并行](notes/dataandmodel.md)
 * [PS架构和Ring架构、同步和异步的几种组合](notes/synasy.md)
-
+#### 各种框架的具体实现
+* [Pytorch](https://github.com/fusimeng/PyTorch)
+* [Horovod](https://github.com/fusimeng/Horovod)
+* [Tensorflow](https://github.com/fusimeng/TensorFlow)
+* [Mxnet](https://github.com/fusimeng/mxnet_)
    
    
 **--------------------------------------------------------------------------------------------------**
