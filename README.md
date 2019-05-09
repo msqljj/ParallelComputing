@@ -2,7 +2,8 @@
 ## 一、概述
 * [介绍](notes/introduce.md)   
 ## 二、MPI
-* [MPI的几个概念](notes/mpiconcept.md)
+* [MPI基础概念](notes/mpiconcept.md)
+* [MPI通信](notes/communication.md)
 ## 三、GPU&CUDA
 ### 1.硬件层次
 **单机多卡**内存和GPU、GPU和GPU之间互联可通过PCIE、NVLink、NVSwitch；    
@@ -14,15 +15,18 @@
 **单机多卡**  
 NCCL；Gloo；       
 **多机多卡**   
-NCCL2.x；MPI；TCP/IP；Gloo；       
+NCCL2.x；MPI；TCP/IP；Gloo；    
+* [底层通信原语学习](notes/CollectiveCommunication.md)   
 * [NCCL介绍](notes/nccl.md)
-* [NCCL安装](notes/ncclinstall.md)   
+* [Gloo介绍](notes/gloo.md)
+* [底层通信方案对比（NCCL，Gloo，MPI……）](notes/compare.md) 
 ### 3.框架层次
-* 模型并行和数据并行
-* PS架构和Ring架构
-* 底层通信方案对比（NCCL，Gloo，MPI……）    
+* [模型并行和数据并行](notes/dataandmodel.md)
+* [PS架构和Ring架构、同步和异步的几种组合](notes/synasy.md)
+
    
-**-------------------------------------------------**
+   
+**--------------------------------------------------------------------------------------------------**
 ## 资源
 * [OpenMPI官网](https://www.open-mpi.org/)  |  [MPI Tutorial-1](https://riptutorial.com/zh-CN/mpi/topic/1943/mpi)  |  [MPI Tutorial-2](http://mpitutorial.com/tutorials/)   
 * [Intel MPI](https://software.intel.com/en-us/mpi-library) | [MVAPICH2](http://mvapich.cse.ohio-state.edu/) 
