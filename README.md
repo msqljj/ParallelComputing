@@ -20,7 +20,8 @@ NCCL2.x；MPI；TCP/IP；Gloo；
 ### 3.框架层次
 * 模型并行和数据并行
 * PS架构和Ring架构
-* 底层通信方案对比（NCCL，Gloo，MPI……）
+* 底层通信方案对比（NCCL，Gloo，MPI……）    
+   
 **-------------------------------------------------**
 ## 资源
 * [OpenMPI官网](https://www.open-mpi.org/)  |  [MPI Tutorial-1](https://riptutorial.com/zh-CN/mpi/topic/1943/mpi)  |  [MPI Tutorial-2](http://mpitutorial.com/tutorials/)   
