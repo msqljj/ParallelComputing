@@ -12,6 +12,7 @@
 * [Ubuntu16.04 安装NVIDIA驱动](notes/driverinstall.md)
 * [Ubuntu16.04 安装CUDA，cuDNN](notes/cudainstall.md)
 * [Ubuntu16.04 安装Docker](notes/docker.md)
+* [Ubuntu16.04 安装NVIDIA Docker](notes/nvdocker.md)
 ## 四、GPU&CUDA多机通信
 ### 1.硬件层次
 **单机多卡**内存和GPU、GPU和GPU之间互联可通过PCIE、NVLink、NVSwitch；    
