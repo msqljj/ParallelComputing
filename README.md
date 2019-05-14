@@ -4,7 +4,12 @@
 ## 二、MPI
 * [MPI基础概念](notes/mpiconcept.md)
 * [MPI通信](notes/communication.md)
-## 三、GPU&CUDA
+## 三、CUDA环境安装    
+* [Ubuntu16.04 Server安装](notes/serverinstall.md)
+* [Ubuntu16.04 配置IP](notes/ip.md)
+* [IPMI配置](res/IPMI.pdf)
+* [Ubuntu16.04安装NVIDIA驱动](notes/driverinstall.md)
+## 四、GPU&CUDA多机通信
 ### 1.硬件层次
 **单机多卡**内存和GPU、GPU和GPU之间互联可通过PCIE、NVLink、NVSwitch；    
 **多机多卡**GPU之间（不同主机）、CPU与GPU之间互联可通过GPUDirect RDMA、IB/万兆以太网 + TCP/IP；      
@@ -30,7 +35,7 @@ NCCL2.x；MPI；TCP/IP；Gloo；
 * [Tensorflow](https://github.com/fusimeng/TensorFlow)
 * [Mxnet](https://github.com/fusimeng/mxnet_)
    
-   
+
 **--------------------------------------------------------------------------------------------------**
 ## 资源
 * [OpenMPI官网](https://www.open-mpi.org/)  |  [MPI Tutorial-1](https://riptutorial.com/zh-CN/mpi/topic/1943/mpi)  |  [MPI Tutorial-2](http://mpitutorial.com/tutorials/)   
