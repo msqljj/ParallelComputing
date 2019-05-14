@@ -38,7 +38,7 @@ sudo chmod a+x NVIDIA-Linux-x86_64-384.130.run
 ```
 安装:
 ```
-sudo ./NVIDIA-Linux-x86_64-375.20.run –no-opengl-files
+sudo ./NVIDIA-Linux-x86_64-375.20.run --no-opengl-files
 ```
 * –no-opengl-files 只安装驱动文件，不安装OpenGL文件。这个参数最重要
 * –no-x-check 安装驱动时不检查X服务
