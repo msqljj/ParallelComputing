@@ -1,4 +1,4 @@
-# AI 镜像封装（CUDA9.0）
+# AI 镜像封装（CUDA9.0的标签是9.0，CUDA10.0的标签是10.0）
 ## 一.封装CUDA
 使用镜像：`nvidia/cuda:9.0-cudnn7-devel`   
 Image: `sitonholy/cuda-ubuntu16.04:9.0`    
@@ -42,7 +42,10 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple keras
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple mxnet-cu90
 
 # 机器学习相关
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple sklearn matplotlib
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple sklearn matplotlib pandas
+
+# 学习工具
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple jupyter jupyterlab
 ```
 ### 软件库列表     
 ```
