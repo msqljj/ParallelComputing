@@ -5,6 +5,7 @@
 * [MPI基础概念](notes/mpiconcept.md)
 * [MPI通信](notes/communication.md)
 ## 三、CUDA环境安装  
+### 1.主机环境安装
 * [IPMI配置](res/IPMI.pdf)  
 * [Ubuntu16.04 Server安装](notes/serverinstall.md)
 * [Ubuntu16.04 配置IP](notes/ip.md)
@@ -13,6 +14,8 @@
 * [Ubuntu16.04 安装CUDA，cuDNN](notes/cudainstall.md)
 * [Ubuntu16.04 安装Docker](notes/docker.md)
 * [Ubuntu16.04 安装NVIDIA Docker](notes/nvdocker.md)
+### 2.docker镜像封装
+* [AI镜像封装全过程](notes/dockerai.md)
 ## 四、GPU&CUDA多机通信
 ### 1.硬件层次
 **单机多卡**内存和GPU、GPU和GPU之间互联可通过PCIE、NVLink、NVSwitch；    
