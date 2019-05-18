@@ -15,7 +15,8 @@
 * [Ubuntu16.04 安装Docker](notes/docker.md)
 * [Ubuntu16.04 安装NVIDIA Docker](notes/nvdocker.md)
 ### 2.docker镜像封装
-* [AI镜像封装全过程](notes/dockerai.md)
+* [AI镜像封装全过程-1](notes/dockerai.md)
+* [AI镜像封装全过程-2](notes/dockerai-2.md)
 ## 四、GPU&CUDA多机通信
 ### 1.硬件层次
 **单机多卡**内存和GPU、GPU和GPU之间互联可通过PCIE、NVLink、NVSwitch；    
