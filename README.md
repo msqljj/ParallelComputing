@@ -45,6 +45,10 @@ NCCL2.x；MPI；TCP/IP；Gloo；
    
 
 **--------------------------------------------------------------------------------------------------**
+## 五、GPU硬件&CUDA
+### 1.GPU硬件
+* [Tensor Core](notes/tensorcore.md)
+
 ## 资源
 * [OpenMPI官网](https://www.open-mpi.org/)  |  [MPI Tutorial-1](https://riptutorial.com/zh-CN/mpi/topic/1943/mpi)  |  [MPI Tutorial-2](http://mpitutorial.com/tutorials/)   
 * [Intel MPI](https://software.intel.com/en-us/mpi-library) | [MVAPICH2](http://mvapich.cse.ohio-state.edu/) 
