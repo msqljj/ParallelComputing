@@ -33,7 +33,8 @@ NCCL2.x；MPI；TCP/IP；Gloo；
 * [底层通信原语学习](notes/CollectiveCommunication.md)   
 * [NCCL介绍](notes/nccl.md)
 * [Gloo介绍](notes/gloo.md)
-* [底层通信方案对比（NCCL，Gloo，MPI……）](notes/compare.md)   
+* [底层通信方案对比（NCCL，Gloo，MPI……）](notes/compare.md)  
+* [NCCL 故障排除 ](notes/nccltrouble.md) 
 ### 3.框架层次
 * [模型并行和数据并行](notes/dataandmodel.md)
 * [PS架构和Ring架构、同步和异步的几种组合](notes/synasy.md)
