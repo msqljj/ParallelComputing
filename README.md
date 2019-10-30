@@ -23,7 +23,8 @@
 **多机多卡**GPU之间（不同主机）、CPU与GPU之间互联可通过GPUDirect RDMA、IB/万兆以太网 + TCP/IP；      
 * [PCIE、NVlink、NVSwitch和InfiniBand技术介绍](notes/pcie.md)   
 * [浅析GPU通信技术](notes/gpus_communication.md)
-* [P2P，GPU连接等性能指标测试方法](notes/test.md)
+* [P2P，GPU连接等性能指标测试方法](notes/test.md)   
+* [GPUDirect](notes/gpudirect.md)
 ### 2.软件（库）层次
 **单机多卡**  
 NCCL；Gloo；       
@@ -32,7 +33,7 @@ NCCL2.x；MPI；TCP/IP；Gloo；
 * [底层通信原语学习](notes/CollectiveCommunication.md)   
 * [NCCL介绍](notes/nccl.md)
 * [Gloo介绍](notes/gloo.md)
-* [底层通信方案对比（NCCL，Gloo，MPI……）](notes/compare.md) 
+* [底层通信方案对比（NCCL，Gloo，MPI……）](notes/compare.md)   
 ### 3.框架层次
 * [模型并行和数据并行](notes/dataandmodel.md)
 * [PS架构和Ring架构、同步和异步的几种组合](notes/synasy.md)
